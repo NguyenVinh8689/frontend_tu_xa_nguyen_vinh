@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-login {
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #d2d2d2;
+
+}
+
+.box-login-header {
+    height: 60px;
+    background-color: blueviolet;
+    padding: 0px 20px;
+    position: relative;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.box-login-header h1 {
+    line-height: 60px;
+    font-size: 16px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.box-login-header>a {
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.box-login-content .row {
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+}
+
+.input-group {
+    position: relative;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    background-color: #f0eef0;
+}
+
+
+label {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #999999;
+    border: none;
+}
+
+.input-group>i {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: #bcbcbc;
+}
+
+.signin {
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    border-radius: 6px;
+    background-color: rgb(114, 76, 149);
+    padding-left: 15px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    margin-right: 33px;
+
+}
+
+.signin:hover {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.link {
+    color: rgb(114, 76, 149);
+}
+
+.link:hover {
+    color: yellowgreen;
+    font-size: 17px;
+    font-weight: bold;
+}

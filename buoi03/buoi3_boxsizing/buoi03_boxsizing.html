@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Box Sizing</title>
+    <meta charset="utf - 8" />
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .row {
+        width: 1000px;
+        background-color: yellowgreen;
+        margin: 20px auto;
+        height: 300px;
+      }
+      .col-1,
+      .col-2 {
+        float: left;
+      }
+      .col-1 {
+        width: 30%;
+        background-color: brown;
+        border: 2px solid black;
+      }
+      .col-2 {
+        width: 70%;
+        background-color: yellow;
+        border: 5px solid rgb(206, 33, 33);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="row">
+        <div class="col-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          officia voluptatibus, quo, reiciendis aliquam et molestias quae ipsam
+          a, asperiores aut commodi. Explicabo cum ipsam odit quod porro aliquid
+          vero!
+        </div>
+        <div class="col-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          officia voluptatibus, quo, reiciendis aliquam et molestias quae ipsam
+          a, asperiores aut commodi. Explicabo cum ipsam odit quod porro aliquid
+          vero!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

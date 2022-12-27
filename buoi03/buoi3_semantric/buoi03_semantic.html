@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Semantic</title>
+    <meta charset="utf - 8" />
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .clr {
+        clear: both;
+      }
+      h1 {
+        width: 800px;
+        background-color: #fff;
+        margin: 20px auto;
+        text-align: center;
+        padding: 4px 0px;
+        font-size: 25px;
+      }
+      nav {
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        margin: 0px 150px;
+      }
+      nav a {
+        text-decoration: underline;
+        margin: 0 100px;
+        text-align: center;
+      }
+      #box {
+        width: 1120px;
+        height: 450px;
+        box-sizing: border-box;
+      }
+      #box .box-A {
+        width: 280px;
+        height: 450px;
+        border-right: 1px solid #e5e5e5;
+        float: left;
+        margin-left: 150px;
+      }
+      #box .box-A .meoA {
+        text-align: right;
+        padding-top: 20px;
+        padding-right: 30px;
+      }
+
+      #box .box-A p {
+        text-align: center;
+      }
+      #box .box-A ul {
+        margin-left: 170px;
+        padding-top: 20px;
+      }
+      #box .box-B {
+        margin-left: 430px;
+        width: 558px;
+      }
+      #box .box-B .article,
+      #box .box-B .art {
+        height: 180px;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+      #box .box-B .article h2,
+      #box .box-B .art h3 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      #box .box-B .article p,
+      #box .box-B .art p {
+        text-align: justify;
+        padding: 0px 10px;
+      }
+      #box .box-B .article .ar,
+      #box .box-B .art .ark {
+        margin-top: 10px;
+      }
+      #box .box-C {
+        float: right;
+        width: 280px;
+        height: 450px;
+        border-left: 1px solid #e5e5e5;
+        margin-right: -150px;
+        margin-top: -450px;
+      }
+
+      #box .box-C > p {
+        padding-left: 40px;
+        padding-top: 1px;
+      }
+      #box .box-C ul {
+        padding-left: 40px;
+        padding-top: 20px;
+      }
+      #box .box-C .meoC {
+        text-align: left;
+        padding-top: 60px;
+        padding-left: 30px;
+      }
+      .line {
+        border-bottom: 2px solid #d2d2d2;
+        margin: 0px 150px;
+      }
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML Reference</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+
+    <div id="box">
+      <div class="box-A">
+        <div class="meoA">
+          <a href="#"
+            ><img src="image/hinh-anh-meo-con-sieu-cute.jpg" alt="meo con"
+          /></a>
+          <div>Meow Meow</div>
+        </div>
+
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="box-B">
+        <div class="article">
+          <h2>Article 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            viverra nec lla vitae mollis.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Donec viverra nec nulla vitae mollis. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla
+            vitae mollis.Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Donec viverra nec nulla vitae mollis.
+          </p>
+          <p class="ar">#End of article 1</p>
+        </div>
+        <div class="art">
+          <h3>Article 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            viverra nec nulla vitae mollis.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            viverra nec nulla vitae mollis.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.
+          </p>
+          <p class="ark">#End of article 2</p>
+        </div>
+      </div>
+
+      <div class="box-C">
+        <div class="meoC">
+          <a href="#"
+            ><img src="image/hinh-anh-meo-con-sieu-cute.jpg" alt="meo con"
+          /></a>
+          <div>Meow Meow</div>
+        </div>
+
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="line"></div>
+    <div class="footer">Copyright (C) Zend.vn</div>
+  </body>
+</html>

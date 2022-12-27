@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-login {
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-login-header {
+    height: 130px;
+    background-color: blueviolet;
+    padding: 0px 20px;
+    position: relative;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.box-login-header h1 {
+    line-height: 130px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.box-login-header>a {
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.box-login-content .row {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d2d2d2;
+    border-radius: 4px;
+    height: 65px;
+    text-decoration: none;
+    font-size: 17px;
+    vertical-align: middle;
+
+}
+
+.input-group {
+    height: 50px;
+    border: none;
+
+}
+
+.input-group .title {
+    height: 20px;
+    font-weight: bolder;
+
+}
+
+.input-group .link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.input-group>i {
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    color: #bcbcbc;
+}
+
+#submit {
+    background-color: blueviolet;
+    padding: 0px 20px;
+    opacity: 0.7;
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 35px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#submit:hover {
+    color: yellowgreen;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0.9;
+    cursor: pointer;
+}
